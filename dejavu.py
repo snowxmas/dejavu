@@ -59,7 +59,7 @@ if __name__ == '__main__':
     config_file = args.config
     if config_file is None:
         config_file = DEFAULT_CONFIG_FILE
-        # print "Using default config file: %s" % (config_file)
+        # print( "Using default config file: %s" % (config_file) )
 
     djv = init(config_file)
     if args.fingerprint:
